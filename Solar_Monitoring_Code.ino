@@ -6,7 +6,7 @@ LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 //Measuring Current Using ACS712 
 int sensitivity = 185; // use 100 for 20A Module and 66 for 30A Module 
-int adcvalue= 0; 
+int adcvalue= 33; 
 int offsetvoltage = 2500;  //Sensor Callibration
 double Voltage = 0; //voltage measuring 
 double ecurrent = 0;// Current measuring 
